@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  height: 110px;
+  background: linear-gradient(to bottom,  #3A7CA5, #1B4965);
+  width: 100%;
+  
+}
