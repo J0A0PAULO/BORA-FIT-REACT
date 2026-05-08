@@ -17,7 +17,7 @@ export function CriarTreino () {
         <ContainerApp></ContainerApp>
         <Container className={styles.content}>
           <h3 className={styles.h3}>QUAL TREINO GOSTARIA DE CRIAR</h3>
-          <Button className={styles.button}>TREINO A</Button>
+          <Button className={styles.button} onClick={() => navigate('/formTreinos')}>TREINO A</Button>
           <Button className={styles.button}>TREINO B</Button>
           <Button className={styles.button}>TREINO C</Button>
           <Button className={styles.button} onClick={() => navigate('/treinos')}>VOLTAR</Button>

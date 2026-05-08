@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+  grid-template-columns: 375px;
+  grid-template-rows: 220px 450px 120px;
+}
+
+.button {
+  width: 145px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+  color: #fff;
+  background: #1B4965;
+  text-transform: uppercase;
+}
+
+.containerInput {
+  margin-top: 24px;
+  gap: 24px;
+  
+}
+
+.input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #1B4965;
+  width: 304px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+
+
+.content {
+  margin-top: 24px;
+  gap: 24px; 
+}
+
+.button:active {
+  filter: brightness(1.3);
+}
+
+.h3 {
+  font-size: 18px;
+  font-weight: 800;
+}
