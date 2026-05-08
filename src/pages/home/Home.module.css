@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 375px;
-  grid-template-rows: 348px 348px 115px;
+  grid-template-rows: 328px 368px 115px;
 }
 
 .contentLogo { 
@@ -31,8 +31,9 @@
   font-weight: 800;
   cursor: pointer;
   transition: filter 100ms ease-in-out;
+  cursor: pointer;
 }
 
-.button:hover {
+.button:active {
   filter: brightness(1.3);
 }

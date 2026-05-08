@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 230px;
+  background: linear-gradient(to bottom,  #3A7CA5, #1B4965);
+  color: white;
+  gap: 10px;
+}
+
+.h1 {
+  font-weight: 800;
+}
