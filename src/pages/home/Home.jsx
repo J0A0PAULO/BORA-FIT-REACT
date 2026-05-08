@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import logoImage from "../../assets/academia.png";
 import { Button } from "../../components/Button/Button";
 import { Container } from "../../components/Container/Container";
@@ -20,13 +20,14 @@ export function Home () {
     </div>
     </Container>
 
-      <Container className={styles.animacao}>
+      <div className={styles.containerAlign}>
       <Button className={styles.button} onClick={() => navigate("/treinos")}>Bem Vindo</Button>
-    </Container>
+    </div>
 
     <Container>
          <Footer></Footer>
     </Container>   
+    
     </div>
     </>
   )

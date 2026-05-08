@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 375px;
-  grid-template-rows: 328px 368px 115px;
+  grid-template-rows: 348px 343px 115px;
 }
 
 .contentLogo { 
@@ -12,6 +12,12 @@
   background: linear-gradient(to bottom,  #3A7CA5, #1B4965);
   width: 100%;
   height: 100%;
+}
+
+.containerAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
